@@ -1,0 +1,164 @@
+	  /* ============= */
+	 /* === FONTS === */
+	/* ============= */
+
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaWebBold';
+    src: url('fonts/dejaweb-bold-webfont.eot');
+    src: url('fonts/dejaweb-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-bold-webfont.woff') format('woff'),
+         url('fonts/dejaweb-bold-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-bold-webfont.svg#DejaWebBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaWebBoldItalic';
+    src: url('fonts/dejaweb-bolditalic-webfont.eot');
+    src: url('fonts/dejaweb-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-bolditalic-webfont.woff') format('woff'),
+         url('fonts/dejaweb-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-bolditalic-webfont.svg#DejaWebBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaWebItalic';
+    src: url('fonts/dejaweb-italic-webfont.eot');
+    src: url('fonts/dejaweb-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-italic-webfont.woff') format('woff'),
+         url('fonts/dejaweb-italic-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-italic-webfont.svg#DejaWebItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaWebRegular';
+    src: url('fonts/dejaweb-webfont.eot');
+    src: url('fonts/dejaweb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-webfont.woff') format('woff'),
+         url('fonts/dejaweb-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-webfont.svg#DejaWebRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+	  /* ============= */
+	 /* === LOGIN === */
+	/* ============= */
+
+
+body {
+	background: #F6F6F6 url() center top scroll repeat;
+	min-height: 1200px;
+
+	font-family: DejaWebRegular, Arial, sans-serif;
+	font-weight: normal;	
+	font-style: normal;
+
+	font-size: 12px;
+
+	color: #444;
+}
+ 
+#login form {
+
+}
+#login form .submit input { 
+	background: #f68713!important; 
+	border: 0!important;
+	text-shadow: none!important;
+	color: #fff!important;
+}
+#login form .submit input:hover {
+	background: #000 !important; 
+	color: #fff!important;
+}
+#login h1 {
+
+}
+#login h1 a { 
+	background: transparent url(images/logo_small.png) no-repeat center 0 !important; 
+	width: 310px!important;
+	height: 128px!important;
+	margin: 0 10px;
+}
+.login #nav a {
+	display: block;
+	width: 120px;
+	background: #fff;
+	padding: 6px 8px;
+	color: #f68713!important;
+	text-decoration: none;
+
+     -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+
+
+     -moz-box-shadow: 0px 1px 11px #ccc;
+  -webkit-box-shadow: 0px 1px 11px #ccc;
+          box-shadow: 0px 1px 11px #ccc;
+
+}
+.login #nav a:hover {
+	color: #000 !important;
+}
+ 
+#wphead img, #wphead h1 {
+}
+#wphead {
+	height: 100px;
+}
+#wphead-info {
+	padding-top: 27px;
+}
+ 
+#footer {
+}
+#footer_custom {
+	clear: both;
+	text-align: center;
+	width: 500px;
+	margin: auto;
+	height: 100px;
+}
+#footer_custom .docs {
+	padding-top: 0px;
+	line-height: 100%;
+}
+#footer_image {
+	border:none;
+}
+
+input#user_login,
+input#user_pass {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+input#user_login:hover, input#user_login:focus,
+input#user_pass:hover, input#user_pass:focus {
+	border: 1px solid #f68713 !important;
+	-webkit-box-shadow: 0 0 5px #f68713;
+	-moz-box-shadow: 0 0 5px #f68713;
+	box-shadow: 0 0 5px #f68713;
+}

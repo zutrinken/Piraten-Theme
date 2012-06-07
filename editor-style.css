@@ -1,0 +1,252 @@
+	  /* ============= */
+	 /* === FONTS === */
+	/* ============= */
+
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'DejaWebBold';
+    src: url('fonts/dejaweb-bold-webfont.eot');
+    src: url('fonts/dejaweb-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-bold-webfont.woff') format('woff'),
+         url('fonts/dejaweb-bold-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-bold-webfont.svg#DejaWebBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaWebBoldItalic';
+    src: url('fonts/dejaweb-bolditalic-webfont.eot');
+    src: url('fonts/dejaweb-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-bolditalic-webfont.woff') format('woff'),
+         url('fonts/dejaweb-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-bolditalic-webfont.svg#DejaWebBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaWebItalic';
+    src: url('fonts/dejaweb-italic-webfont.eot');
+    src: url('fonts/dejaweb-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-italic-webfont.woff') format('woff'),
+         url('fonts/dejaweb-italic-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-italic-webfont.svg#DejaWebItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaWebRegular';
+    src: url('fonts/dejaweb-webfont.eot');
+    src: url('fonts/dejaweb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dejaweb-webfont.woff') format('woff'),
+         url('fonts/dejaweb-webfont.ttf') format('truetype'),
+         url('fonts/dejaweb-webfont.svg#DejaWebRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	  /* ============= */
+	 /* === RESET === */
+	/* ============= */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+* {outline: 0;}
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:13px/1.231 sans-serif; *font-size:small; } 
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; }
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after, .clear { clear: both; }
+.clearfix { zoom: 1; }
+
+* {
+	font-family: DejaWebRegular, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+}
+body#tinymce {
+	padding: 20px;
+}
+a, a:active, a:visited {
+	color: #f68713;
+}
+a:hover {
+	color: #111;
+}
+
+ul, ol {
+	margin: 20px 0 20px 2em;
+}
+ul {
+	list-style: square;
+}
+li {
+	padding: 5px;
+	margin: 2px 0;
+}
+li:nth-child(odd) {
+	background: #f8f8f8;
+}
+li:nth-child(even) {
+	background: #eee;
+}
+h1, h2, h3, h4, h5, h6, h7 {
+	font-family: BebasNeueRegular, Impact, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	
+	background: #111;
+	color: #fff;
+	
+	padding: 10px;
+	line-height: 100%;
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+p {
+	margin: 15px 0;
+}
+blockquote {
+	margin: 15px 0;
+	padding: 0 40px;
+	color: #999;
+	font-family: DejaWebItalic, Arial, sans-serif;
+	background:	url(images/bg_quote_1.png) left top scroll no-repeat,
+			url(images/bg_quote_2.png) right bottom scroll no-repeat;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+.center {
+	text-align: center;
+}
+
+img.center, img[align="center"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+img.alignleft, img[align="left"] {
+	float:left;
+	margin: 17px 20px 5px 0px;
+}
+
+.alignright {
+	float: right;
+}
+
+img.alignright, img[align="right"] {
+	float:right;
+	margin: 17px 0px 5px 20px;
+}
